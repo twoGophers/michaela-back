@@ -1,0 +1,26 @@
+# Node.js dependencies
+node_modules/
+
+# Docker
+docker-compose.override.yml
+docker-compose.yml
+.dockerignore
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# Build directories
+/dist
+/build
+/coverage
+/.vscode
+/.idea
+
+# Logs
+*.log
+
+# Operating System files
+.DS_Store
+Thumbs.db
